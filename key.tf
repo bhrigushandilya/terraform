@@ -2,7 +2,7 @@
 provider "aws"{
     region = "ap-south-1"
     profile = "Bhrigu"
-
+}
 // Creating key pair
 resource "tls_private_key" "key1"{
 	algorithm = "RSA"
